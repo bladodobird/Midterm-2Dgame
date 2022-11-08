@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: -6633117764758573171}
   - component: {fileID: 7332862489526602522}
   - component: {fileID: -6406675334259958423}
-  - component: {fileID: -2595199315233050197}
   m_Layer: 10
   m_Name: "\u6575\u4EBA\u5B50\u5F48\u4E8C"
   m_TagString: Untagged
@@ -101,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a5bbb901ab5a8743b1f9570983d1d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameTarget: bullet
+  nameTarget: bollet
   prefabExplosion: {fileID: 6349023878848264473, guid: 45748e3e28b1a9740bb8e687be95d354, type: 3}
 --- !u!58 &-6633117764758573171
 CircleCollider2D:
@@ -154,17 +153,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rig: {fileID: 7332862489526602522}
---- !u!114 &-2595199315233050197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4350532451160206000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a5bbb901ab5a8743b1f9570983d1d26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameTarget: bullet
-  prefabExplosion: {fileID: 6349023878848264473, guid: 45748e3e28b1a9740bb8e687be95d354, type: 3}
