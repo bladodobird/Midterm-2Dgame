@@ -16,7 +16,6 @@ namespace YIZU
         {
             rig = GetComponent<Rigidbody2D>();//獲取子彈剛體組件
             rig.velocity = transform.right * speed;//移動
-           
         }
     }
 }

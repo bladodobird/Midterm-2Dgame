@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3303605379618336895}
   - component: {fileID: -6734366676190912632}
   - component: {fileID: 7806013619158346413}
+  - component: {fileID: 2147378828042244807}
   m_Layer: 7
   m_Name: bollet
   m_TagString: Untagged
@@ -232,3 +233,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2147378828042244807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2269388660862860705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6224276b08fc28a4b90556ed676cda8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
