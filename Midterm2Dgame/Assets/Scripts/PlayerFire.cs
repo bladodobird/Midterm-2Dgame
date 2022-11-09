@@ -1,15 +1,15 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace YIZU
 {
     /// <summary>
-    /// ª±®a®gÀ»
+    /// ç©å®¶å°„æ“Š
     /// </summary>
     public class PlayerFire : FireSystem
     {
         private void Update()
         {
-            //ª±®aªÅ¥ÕÁä¥Í¦¨¤l¼u¤@
+            //ç©å®¶ç©ºç™½éµç”Ÿæˆå­å½ˆä¸€
             if (Input.GetKeyDown(KeyCode.Space)) { 
                 SpawnBullet();
             }

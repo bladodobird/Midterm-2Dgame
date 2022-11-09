@@ -1,15 +1,15 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace YIZU
 {
     /// <summary>
-    /// ¤l¼u¥Í¦¨
+    /// å­å½ˆç”Ÿæˆ
     /// </summary>
     public class FireSystem : MonoBehaviour
     {
-        [SerializeField, Header("¤l¼u¹w¸mª«")]
+        [SerializeField, Header("å­å½ˆé ç½®ç‰©")]
         private GameObject prefabBullet;
-        [SerializeField, Header("¤l¼u¥Í¦¨ÂI")]
+        [SerializeField, Header("å­å½ˆç”Ÿæˆé»")]
         private Transform pointSpawn;
 
 

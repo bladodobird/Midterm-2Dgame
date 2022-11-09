@@ -1,21 +1,21 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace YIZU
 {
     /// <summary>
-    /// ¤l¼u³]©w´ú¸Õ
+    /// å­å½ˆè¨­å®šæ¸¬è©¦
     /// </summary>
 
     public class Bullet : MonoBehaviour
     {
 
-        [SerializeField] private float speed = 5f;//¤l¼uªº³t«×
+        [SerializeField] private float speed = 5f;//å­å½ˆçš„é€Ÿåº¦
         public Rigidbody2D rig;
 
         void Start()
         {
-            rig = GetComponent<Rigidbody2D>();//Àò¨ú¤l¼u­èÅé²Õ¥ó
-            rig.velocity = transform.right * speed;//²¾°Ê
+            rig = GetComponent<Rigidbody2D>();//ç²å–å­å½ˆå‰›é«”çµ„ä»¶
+            rig.velocity = transform.right * speed;//ç§»å‹•
            
         }
     }

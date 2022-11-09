@@ -1,20 +1,20 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace YIZU
 {
 
     public class Help : MonoBehaviour
     {
-        [SerializeField, Header("§ó´«¹Ï¤ù")]
+        [SerializeField, Header("æ›´æ›åœ–ç‰‡")]
         private Sprite picture;
-        [SerializeField, Header("¹Ï¤ù´è¬Vª«¥ó")]
+        [SerializeField, Header("åœ–ç‰‡æ¸²æŸ“ç‰©ä»¶")]
         private SpriteRenderer spr;
 
         private void Update()
         {
             if (Input.GetKey(KeyCode.Space))
             {
-                print("®×ªÅ¥Õ«Ø");
+                print("æ¡ˆç©ºç™½å»º");
                 spr.sprite = picture;
                 
             }

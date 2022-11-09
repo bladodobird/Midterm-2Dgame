@@ -1,21 +1,21 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace YIZU
 {
     /// <summary>
-    /// ®gÀ»
+    /// å°„æ“Š
     /// </summary>
     public class EnemyFire : FireSystem
     {
-        [SerializeField, Header("¥Í¦¨¶¡¹j"), Range(0, 3)]
+        [SerializeField, Header("ç”Ÿæˆé–“éš”"), Range(0, 3)]
         private float interval = 1.5f;
 
         private void Awake()
         {
-            // ©I¥s¦Û­q
+            // å‘¼å«è‡ªè¨‚
             // SpawnBullet();
 
-            // ©µ¿ğ
+            // å»¶é²
             InvokeRepeating("SpawnBullet", 0, interval);
         }
     }

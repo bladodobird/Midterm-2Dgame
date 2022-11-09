@@ -1,18 +1,18 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace YIZU
 {
     /// <summary>
-    /// ª±®a¾Ş±±
+    /// ç©å®¶æ“æ§
     /// </summary>
     public class PlayerController : MonoBehaviour
     {
-        [Header("²¾°Ê³t«×")]
+        [Header("ç§»å‹•é€Ÿåº¦")]
         [SerializeField, Range(0, 10)]
         private float speedVertical = 3.5f;
         [SerializeField, Range(0, 10)]
         private float speedHorizontal = 4f;
-        [Header("¹Ï¤ù")]
+        [Header("åœ–ç‰‡")]
         [SerializeField]
         private Sprite pictureUp;
         [SerializeField]
@@ -21,7 +21,7 @@ namespace YIZU
         private Sprite pictureDown;
         [SerializeField]
         private Sprite shoot;
-        [Header("¹Ï¤ù´è¬Vª«¥ó")]
+        [Header("åœ–ç‰‡æ¸²æŸ“ç‰©ä»¶")]
         [SerializeField]
         private SpriteRenderer spr;
 
@@ -32,9 +32,9 @@ namespace YIZU
             // WS Vertical
             // AD Horizontal
 
-            // ¤W¤U¥[´î1
+            // ä¸Šä¸‹åŠ æ¸›1
             float v = Input.GetAxis("Vertical");
-            // ¥ª¥k¥[´î1
+            // å·¦å³åŠ æ¸›1
             float h = Input.GetAxis("Horizontal");
 
             transform.Translate(
@@ -42,24 +42,24 @@ namespace YIZU
                 speedVertical * Time.deltaTime * v,
                 0);
 
-            // v ¤j©ó 0 ¹Ï¤ù©¹¤W
+            // v å¤§æ–¼ 0 åœ–ç‰‡å¾€ä¸Š
             if (v > 0)
             {
-                print("©¹¤W");
+                print("å¾€ä¸Š");
 
                 spr.sprite = pictureUp;
             }
-            // v¤p©ó 0 ©¹¤U
+            // vå°æ–¼ 0 å¾€ä¸‹
             if (v < 0)
             {
-                print("©¹¤U");
+                print("å¾€ä¸‹");
 
                 spr.sprite = pictureDown;
             }
-            // vµ¥©ó 0 ¤¤¶¡
+            // vç­‰æ–¼ 0 ä¸­é–“
             if (v == 0)
             {
-                print("¤¤¶¡");
+                print("ä¸­é–“");
 
                 spr.sprite = pictureMiddle;
             }
